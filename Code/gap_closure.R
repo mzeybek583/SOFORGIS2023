@@ -15,7 +15,7 @@ time <- proc.time()
  closure <- data.frame(matrix(ncol = 4, nrow = 0, 
                               dimnames = list(NULL, c("Plot ID", "Plot Area", "Canopy Area", "Closure (Percentage)"))))
 
- las <- readLAS("E:/DR_Sonrasi_Projeler/LiDARForestry/Beynam/ANKARA_BEYNAM_ORMAN/ORMAN_SON/2022-09-15_20-21-Beynam_koordinatli_30O3.las")
+ las <- readLAS("E:/2022-09-15_20-21-Beynam_koordinatli_30O3.las")
  
  # Get info about las
  
